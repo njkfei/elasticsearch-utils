@@ -1,0 +1,68 @@
+{
+	"jdbc":"com.mysql.jdbc.Driver",
+	"url":"jdbc:mysql://192.168.1.248:3306/dev_sanhao",
+	"username":"root",
+	"password":"root",
+	"_id":"teacher_id",
+	"start_id":0,
+	"count":500,
+	"sql":"SELECT * FROM `ysyy_user_teacher` WHERE teacher_id > ? limit ?",
+    "schema": [
+  		{"name":"teacher_id",
+            "type": "integer"
+        },
+        {"name":"user_id",
+            "type": "integer"
+        },
+        {"name":"teacher_nickname",
+            "type": "string"
+        },
+        {"name":"teacher_mobile",
+            "type": "string"
+           
+        },
+        {"name": "teacher_mail",
+            "type": "string"
+           
+        },
+        {"name":"teacher_name",
+            "type": "string"
+        },
+        {"name":"teacher_birth_year",
+            "type": "integer"
+        },
+        {"name":"teacher_idcard",
+            "type": "string"
+        },
+        {"name":"teacher_address",
+            "type": "string"
+        }, 
+        {"name":"teacher_school",
+            "type": "string"
+        },
+        {"name":"teacher_course_cat",
+            "type": "string"
+        },
+        {"name":"teacher_course_tag",
+            "type": "string"
+        },
+        {"name":"teacher_seniority",
+            "type": "integer"
+        },
+        {"name":"teacher_desc",
+            "type": "string"
+        },
+        {"name":"teacher_level",
+            "type": "long"
+        },
+        {"name":"teacher_star",
+            "type": "integer"
+        },
+        {"name": "teacher_gender",
+            "type": "integer"
+        },
+        {"name":"teacher_pageview",
+            "type": "integer"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"jdbc":"com.mysql.jdbc.Driver",
+	"url":"jdbc:mysql://192.168.1.1:3306/dev_test",
+	"username":"root",
+	"password":"root",
+	"sql":"SELECT * FROM user WHERE user_id > ? limit ?",
+    "schema": [
+         {  "name":"user_id", "type": "integer"},
+         { "name":"user_account",    "type": "long"},
+         {"name": "user_type", "type": "integer"},
+         {"name":"user_level", "type": "integer"},
+         {"name":"user_recommend","type": "integer"},
+         {"name":"user_salt","type": "integer"},
+         {"name":"channel_id","type": "integer"},
+         {"name":"user_balance","type": "double"}
+    ]
+}

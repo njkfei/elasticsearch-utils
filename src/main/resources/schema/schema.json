@@ -1,0 +1,36 @@
+{
+    "properties": {
+        "user_id": {
+            "type": "integer",
+            "index": "not_analyzed"
+        },
+        "user_account": {
+            "type": "long",
+            "index": "not_analyzed"
+        },
+        "user_type": {
+            "type": "integer",
+            "index": "not_analyzed"
+        },
+        "user_level": {
+            "type": "integer",
+            "index": "not_analyzed"
+        },
+        "user_recommend": {
+            "type": "integer",
+            "index": "not_analyzed"
+        },
+        "user_salt": {
+            "type": "integer",
+            "index": "not_analyzed"
+        },
+        "channel_id": {
+            "type": "integer",
+            "index": "not_analyzed"
+        },
+        "user_balance": {
+            "type": "double",
+            "index": "not_analyzed"
+        }
+    }
+}

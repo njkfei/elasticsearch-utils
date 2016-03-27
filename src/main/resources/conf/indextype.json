@@ -1,0 +1,10 @@
+{
+	"host":"127.0.0.1",
+	"port":9300,
+	"index":"sanhao_dev",
+	"type":"teacher",
+	"number_of_shards":5,
+	"number_of_replicas":0,
+	"delete":"false",
+	"map":"src/main/resources/schema/teacher.schema"
+}
